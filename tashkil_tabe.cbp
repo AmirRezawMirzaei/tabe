@@ -1,0 +1,21 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int f(int  , int , int );
+
+int main()
+{
+    int a , b , c , result;
+    cout<< "se adad vared konid = ";
+    cin>>a>>b>>c;
+    result = f(a,b,c);
+    cout<<"Result is = "<<result;
+    getch();
+}
+int f(int x , int y , int z)
+{
+    int p = (x*2)+(y-3)-(z/2);
+    return p ;
+}
